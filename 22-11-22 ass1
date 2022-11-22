@@ -1,0 +1,6 @@
+p=int(input("principal amount:"))
+t=int(input('time period:'))
+r=float(input('rate of interst:'))
+si=(p*t*r)/100
+emi=(si+p)/t*12
+print('EMI=',emi)
