@@ -1,0 +1,2 @@
+x=int(input('enter x:'))
+print('x is EVEN') if x%2==0 else print('x is ODD') 
